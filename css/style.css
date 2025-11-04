@@ -775,8 +775,18 @@ section {
 
 .contact-info h2,
 .resources-section h2 {
-    margin-bottom: 1.5rem;
-    color: var(--text-dark);
+    margin-bottom: 2rem;
+}
+
+.contact-info .section-title,
+.resources-section .section-title {
+    text-align: left;
+    font-size: 2rem;
+}
+
+.contact-info .section-title::after,
+.resources-section .section-title::after {
+    margin: 15px 0 0 0;
 }
 
 .contact-info p {
